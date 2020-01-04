@@ -33,7 +33,7 @@ mysqlConnection.connect((err)=>{
 // )
 
 // Set up express js port
-const playerRoute = require('../server/routes/player.routes.js');
+const playerRoute = require('./routes/player.routes.js');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
