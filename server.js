@@ -7,10 +7,11 @@ const path = require('path');
 const mysql = require('mysql');
 
 var mysqlConnection = mysql.createConnection({
-  host: 'emcsql.manifestmars.com',
-  user: 'ewicinski',
-  password: '56EMCplease6!',
-  database: 'emctourney'
+  host: 'remotemysql.com',
+  port: 3306,
+  user: 'FjYkkQIryi',
+  password: 'WhCNAiN5MM',
+  database: 'FjYkkQIryi'
 });
 
 mysqlConnection.connect((err)=>{
